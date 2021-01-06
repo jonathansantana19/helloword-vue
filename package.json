@@ -9,7 +9,7 @@
     "deploy": "aws --region us-east-1 --profile user-deploy s3 sync ./dist s3://mybucketvue --delete"
   },
   "dependencies": {
-    "axios": "^0.19.2",
+    "axios": "^0.21.1",
     "bootstrap-vue": "^2.13.0",
     "core-js": "^3.6.4",
     "nprogress": "^0.2.0",
